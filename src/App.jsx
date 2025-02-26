@@ -12,6 +12,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/Footer";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
+import Dashboard from "./components/StudentDashboard/Dashboard";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/SignIn" element={<SignIn />} />
         <Route path="/Pricing" element={<Pricing />} />
+        <Route path="/dash" element={<Dashboard />} />
         <Route path="/Blog" element={<Blog />} />
       </Routes>
       <Footer />

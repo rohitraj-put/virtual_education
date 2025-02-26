@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../header/Header";
 
 const SignIn = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -11,7 +10,6 @@ const SignIn = () => {
 
   return (
     <>
-      <Header />
       <div className="flex justify-center items-center my-12 ">
         <motion.div
           initial={{ opacity: 0, y: -50 }}

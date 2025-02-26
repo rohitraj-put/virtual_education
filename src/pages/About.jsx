@@ -5,20 +5,20 @@ const About = () => {
     <>
       <section className="overflow-hidden px-4 py-8">
         <div className=" mx-auto">
-          <div className="flex flex-wrap items-center justify-between -mx-4">
+          <div className="flex flex-wrap items-center max:md-flex-col-reverse justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
-              <div className="flex items-center -mx-3 sm:-mx-4">
+              <div className="flex items-center  -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://img.freepik.com/free-photo/computer-book-reading-planning-ideas-students_1418-84.jpg?t=st=1740138278~exp=1740141878~hmac=63b9756937865169e4eb5eb5f2e5f2b7eabe3e6f83d47f62714b7f81c7f6addb&w=1800"
+                      src="https://cdn.pixabay.com/photo/2024/04/30/02/57/ai-generated-8729176_1280.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://img.freepik.com/free-photo/portrait-cheerful-young-girl-holding-books_171337-1639.jpg?t=st=1740138309~exp=1740141909~hmac=8c075aa45839ce11f8336b2bdb41377363c2cc06b930ecfd0da33f9ba06ed693&w=1800"
+                      src="https://cdn.pixabay.com/photo/2023/02/17/09/01/man-7795548_1280.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -27,7 +27,7 @@ const About = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <img
-                      src="https://img.freepik.com/free-photo/city-committed-education-collage-concept_23-2150062214.jpg?t=st=1740138250~exp=1740141850~hmac=07f466146e011eecb7c47b85337bae05c777a8792d57602b5a149bbe0bc47fd7&w=1800"
+                      src="https://cdn.pixabay.com/photo/2023/01/12/18/33/dog-7714646_1280.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />

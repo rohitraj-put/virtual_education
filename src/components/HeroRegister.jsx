@@ -15,7 +15,7 @@ export default function HeroRegister() {
           </div>
           <div className="flex flex-col gap-5 md:gap-10">
             <div className="flex flex-col gap-3 md:gap-6">
-              <div className="text-black text-2xl md:text-3xl lg:text-[40px]  font-semibold leading-[38px]">
+              <div className="text-black text-2xl md:text-3xl lg:text-[40px] capitalize  font-semibold leading-[38px]">
                 <p>
                   Join{" "}
                   <span className="text-[#20b486]">World&apos;s largest</span>{" "}

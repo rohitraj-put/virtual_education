@@ -34,7 +34,6 @@ const Signup = () => {
 
   return (
     <>
-      <Header />
       <div className="flex items-center justify-center my-8 max-md:px-4 ">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
